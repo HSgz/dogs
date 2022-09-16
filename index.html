@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dogs</title>
+</head>
+
+<body>
+  <nav>
+    <a href="#favorities">Favoritos</a>
+    <span class="favorites-icon"></span>
+  </nav>
+  <div class="hidden-alert" role="alert">
+    <p class="alerta-parrafo">Update</p>
+    <p>Felicidades, las imagenes se han actualizado.</p>
+  </div>
+  <main id="app">
+    <h1>Selecciona la imagen que mas te guste</h1>
+    <div class="container">
+      <img id="img-1" alt="dogs" name="" class="images" />
+
+      <img id="img-2" alt="dogs" name="" class="images" />
+
+      <img id="img-3" alt="dogs" name="" class="images" />
+
+      <img id="img-4" alt="dogs" name="" class="images" />
+    </div>
+    <button class="button" id="fetch">Recargar</button>
+    <section id="favorities">
+      <h2>Favoritos</h2>
+      <div id="container-favorities">
+      </div>
+    </section>
+    <div class="contained__icon-flecha"><img src="./flecha-correcta.png" alt="icono de flecha" class="icon-flecha"></div>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
