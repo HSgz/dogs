@@ -41,7 +41,7 @@ function activeAlert() {
   Swal.fire({
     position: "center",
     icon: "success",
-    title: "Agregada a favortitos",
+    title: "Agregada a favoritos",
     showConfirmButton: false,
     timer: 1500,
   });

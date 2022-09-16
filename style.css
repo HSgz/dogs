@@ -7,7 +7,7 @@
 
 
 #app h1 {
-  margin-bottom: 40px;
+  margin: 30px;
 }
 
 nav {
@@ -139,6 +139,7 @@ nav a{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 30px;
+  column-gap: 10px;
 }
 
 .contained__icon-flecha {
