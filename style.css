@@ -42,7 +42,7 @@ nav a{
 }
 
 .images {
-  width: 350px;
+  width: 300px;
   height: 300px;
   object-fit: cover;
   cursor: pointer;
@@ -73,7 +73,7 @@ nav a{
 #delete {
   display: block;
   margin-top: 20px;
-  margin-left: calc(35% - 100px);
+  margin-left: calc(40% - 100px);
   box-shadow: inset 0px 1px 0px 0px #ffffff;
 	background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	background-color:#ededed;
@@ -137,7 +137,7 @@ nav a{
 
 #container-favorities {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 30px;
 }
 
