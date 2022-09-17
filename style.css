@@ -47,9 +47,11 @@ nav a{
   object-fit: cover;
   cursor: pointer;
   border-radius: 20px;
+  animation-name: aparicion;
+  animation-duration: 3s;
   background: #e0e0e0;
   box-shadow:  -20px 20px 60px #bebebe,
-             20px 20px 60px #ffffff;
+                20px 20px 60px #ffffff;
 }
 
 .button {
@@ -169,5 +171,15 @@ nav a{
 
   to {
     transform: translateY(0%);
+  }
+}
+
+@keyframes aparicion {
+  0% {
+    clip-path: circle(10% at 50% 50%);
+  }
+
+  100% {
+    clip-path: circle(150% at 50% 50%);
   }
 }
